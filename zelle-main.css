@@ -1,0 +1,263 @@
+.intro-header{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.zelle-onboarding-section{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #efefef;
+    flex-direction: column;
+    gap: 50px;
+}
+.zelle-steps{
+    display: flex;
+}
+.zelle-steps div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.zelle-steps h2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6d1ed4;
+    font-weight: 800;
+}
+.zelle-steps p{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 100;
+}
+.num-img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.get-started-btn{
+    padding: 20px 30px;
+    color: white;
+    background-color: #6d1ed4;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+.zelle-use-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.zelle-img{
+    width: 300px;
+}
+.zelle-use-section-info{
+    display: flex;
+}
+.zelle-use-section-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.zelle-use-section-info p{
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+}
+.zelle-use-section h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+}
+.how-it-works-btn{
+    font-size: 16px;
+    border: 1px solid rgb(91,221,180);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+.zelle-startup{
+    margin-bottom: 100px;
+}
+.zelle-startup-intro{
+    background-color: #6d1ed4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.zelle-startup-intro h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.zelle-startup-questions{
+    text-align: center;
+    padding: 0px 50px;
+}
+.startup-questions-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.startup-questions-div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.startup-questions-div h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 80%;
+}
+.startup-questions-div p{
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.startup-questions-div a{
+    color: #6d1ed4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: rgb(91, 24, 178);
+    padding: 60px 100px;
+}
+.footer-contact{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.footer-div-ul{
+    flex: 5;
+}
+.footer-div-ul ul{
+    display: flex;
+    padding: 0;
+    width: 60%;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.footer-div-ul a{
+    color: white;
+    text-decoration: none;
+}
+.footer-div-ul li{
+    list-style-type: none;
+}
+.footer-div-img{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.logo{
+    width: 25px;
+    filter: invert(100%) sepia(97%) saturate(0%) hue-rotate(251deg) brightness(105%) contrast(102%);
+}
+.footer-div-p{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-div-p p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #c2a9e3;
+}
+.footer-end-img-div{
+    text-align: right;
+}
+.footer-end-img{
+    width: 150px;
+}
+
+@media (max-width: 768px){
+    .intro-header{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .zelle-steps{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .zelle-use-section-info{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .zelle-startup-intro h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .zelle-img{
+        width: 150px;
+    }
+    .startup-questions-div{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer{
+        padding: 30px 40px;
+    }
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-div-ul ul, .footer-div-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 40px;
+    }
+    .footer-div-p{
+        margin-bottom: 20px;
+    }
+    .footer-div-p p{
+        text-align: center;
+    }
+    .footer-end-img-div{
+        text-align: center;
+    }
+}
+

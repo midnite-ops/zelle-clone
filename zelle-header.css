@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+p{
+    font-family: sans-serif;
+}
+header{
+    background-color: #6d1ed4;
+    padding: 20px 70px;
+}
+.hidden-media-div{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+.nav-bar-zelle-logo{
+    flex: 1;
+}
+.nav-bar-div-links{
+    flex: 2;
+    display: flex;
+    justify-content: end;
+}
+.ul-links{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ul-links li{
+    cursor: pointer;
+}
+.zelle-img{
+    width: 350px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-zelle-info{
+    color: white;
+}
+.hero-zelle-info h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-zelle-info p{
+    width: 90%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.zelle-valid-btn{
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(129, 93, 255);
+    color: white;
+    cursor: pointer;
+}
+.zelle-img, .ul-links li:hover{
+    transition: 0.5s;
+    color: #c2a9e3;
+    cursor: pointer;
+}
+.zelle-valid-btn:hover{
+    background-color: rgb(129, 93, 255, 0.5);
+}
+.get-started-btn:hover{
+    background-color: rgb(109, 30, 212, 0.7);
+}
+
+
+@media (max-width: 768px) {
+    header{
+        padding: 20px 50px;
+    }
+    .hidden-media-div{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 10px 10px;
+        border-bottom: 1px solid grey;
+        margin-bottom: 20px;
+    }
+    .hidden-media-div div{
+        flex: 1;
+    }
+    .hamburger-menu-hidden{
+        width: 30px;
+        filter: invert(100%) sepia(97%) saturate(0%) hue-rotate(251deg) brightness(105%) contrast(102%);
+    }
+    .zelle-logo-hidden{
+        width: 20px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .hero-section{
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .zelle-homepage{
+       width: 300px;
+    }
+}
